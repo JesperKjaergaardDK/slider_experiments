@@ -1,0 +1,16 @@
+{
+  "slider": [
+    {
+      "src": "/curly-long-hairstyle-1.png",
+      "alt": "Slider Image nr1"
+    },
+    {
+      "src": "/curly-long-hairstyle-2.jpg",
+      "alt": "Slider Image nr2"
+    },
+    {
+      "src": "/curly-long-hairstyle-3.png",
+      "alt": "Slider Image nr3"
+    }
+  ]
+}
