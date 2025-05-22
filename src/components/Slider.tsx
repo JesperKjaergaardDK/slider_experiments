@@ -12,7 +12,6 @@ function Slider() {
   };
 
   const prev = () => {
-    setSlide(slide - 1);
     setSlide(slide === 0 ? sliderdata.slider.length - 1: slide - 1  )
   };
 
