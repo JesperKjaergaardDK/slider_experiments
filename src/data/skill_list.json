@@ -1,0 +1,48 @@
+{
+  "combind_list": [
+    {
+      "src": "/skills/icons8-html-64.png",
+      "alt": "HTML"
+    },
+    {
+      "src": "/skills/icons8-css-64.png",
+      "alt": "CSS"
+    },
+    {
+      "src": "/skills/icons8-js-64.png",
+      "alt": "JavaScript"
+    },
+    {
+      "src": "/skills/icons8-typescript-64.png",
+      "alt": "TypeScript"
+    },
+    {
+      "src": "/skills/icons8-bootstrap-64.png",
+      "alt": "Bootstrap"
+    },
+    {
+      "src": "/skills/icons8-sass-64.png",
+      "alt": "SASS"
+    },
+    {
+      "src": "/skills/icons8-react-64.png",
+      "alt": "React"
+    },
+    {
+      "src": "/skills/icons8-figma-64.png",
+      "alt": "Figma"
+    },
+    {
+      "src": "/skills/icons8-adobe-illustrator-64.png",
+      "alt": "Illustrator"
+    },
+    {
+      "src": "/skills/icons8-adobe-photoshop-64.png",
+      "alt": "Photoshop"
+    },
+    {
+      "src": "/skills/icons8-adobe-indesign-64.png",
+      "alt": "Indesign"
+    }
+  ]
+}

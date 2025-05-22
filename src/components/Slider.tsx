@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useState } from "react";
 import "../slider.css";
 import sliderdata from "../data/slider.json";
 import BtnSlider from "./BtnSlider";
@@ -6,13 +6,15 @@ import BtnSlider from "./BtnSlider";
 function Slider() {
   const [slide, setSlide] = useState<number>(0);
 
+  //Set the slider within the length so it doesnt go above the length where no slide exist
   const next = () => {
     setSlide(slide === sliderdata.slider.length - 1 ? 0 : slide + 1)
-  }
+  };
 
   const prev = () => {
-    setSlide(slide === 0 ? sliderdata.slider.length - 1: slide - 1);
-  }
+    setSlide(slide - 1);
+    setSlide(slide === 0 ? sliderdata.slider.length - 1: slide - 1  )
+  };
 
   return (
     <div className="slider">

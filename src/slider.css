@@ -1,8 +1,8 @@
 .slider {
+  background-color: rgb(25, 25, 25);
   position: relative;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   width: 600px;
   height: 400px;
 }

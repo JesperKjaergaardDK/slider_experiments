@@ -1,0 +1,50 @@
+.carousel {
+  display: flex;
+  background-color: black;
+  overflow: hidden;
+  width: 1000px;
+  padding: 1rem;
+}
+
+.skill {
+  background-color: gray;
+  padding: 2rem;
+}
+
+.group {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem;  
+  animation: example 10s linear infinite;
+}
+
+@keyframes example {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+.group-reverse {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem;  
+  animation: example-reverse 10s linear infinite;
+}
+
+
+@keyframes example-reverse {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
